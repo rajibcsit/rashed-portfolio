@@ -25,6 +25,11 @@ const About = () => {
       icon: "/images/social/fb.84f81b16.svg",
       url: "https://www.facebook.com/profile.php?id=61568628960719",
     },
+    {
+      platform: "Telegram",
+      icon: "/images/social/telegram.svg",
+      url: "https://t.me/NextGen_Listing",
+    },
   ];
 
   return (
