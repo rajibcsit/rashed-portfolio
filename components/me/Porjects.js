@@ -1,20 +1,27 @@
 import Image from "next/image";
 import Link from "next/link";
-// import artofcse from '@/public'
 
 export default function Projects() {
   const projects = [
     {
-      title: "Artofcse",
-      description: "React.js, Next.js, Tailwind CSS, Laravel Sanctum API and MySQL ",
-      imageUrl: "/images/projects/artofcse.png",
-      link: "https://artofcse.com",
+      title: "Social media manager",
+      imageUrl: "/images/projects/social_media_manager.jpg",
+      link: "https://x.com/MunroLive_Pod?s=09",
     },
     {
-      title: "Admin Dashboard",
-      description: " HTML, CSS , Tailwind CSS, Javascript",
-      imageUrl: "/images/projects/dashboard.png",
-      link: "https://new-admin-dashboard-kappa.vercel.app/",
+      title: "Social media marketing",
+      imageUrl: "/images/projects/social_media_marketing.jpg",
+      link: "https://x.com/DillonLoomis22?s=09",
+    },
+    {
+      title: "Social media posts",
+      imageUrl: "/images/projects/social_media_posts.jpg",
+      link: "https://x.com/jamesdouma?s=09",
+    },
+    {
+      title: "Social media marketing",
+      imageUrl: "/images/projects/social_media_marketing.jpg",
+      link: "https://x.com/SiderampHQ?s=09",
     },
   ];
 
@@ -28,22 +35,22 @@ export default function Projects() {
           I developed a number of projects. Among those, a few are highlighted here.
         </p>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-12">
           {projects.map((project, index) => (
             <div
               key={index}
-              className="flex h-28 border border-gray-200 rounded-lg shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300"
+              className="flex flex-col border border-gray-200 rounded-lg shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300"
             >
               <Image
                 src={project.imageUrl}
                 alt={`${project.title} image`}
-                width={200}
-                height={150}
-                className="w-1/3 h-full flex-shrink-0 transition-transform duration-300 ease-in-out hover:scale-105"
+                width={300}
+                height={200}
+                className="w-full h-auto transition-transform duration-300 ease-in-out hover:scale-105"
               />
 
-              <div className="p-4 flex-grow">
-                <h3 className="text-base md:text-lg font-bold text-gray-800">
+              <div className="p-4">
+                <h3 className="text-center text-base md:text-lg font-bold text-gray-800">
                   <Link
                     href={project.link}
                     target="_blank"
@@ -53,8 +60,6 @@ export default function Projects() {
                     {project.title}
                   </Link>
                 </h3>
-
-                <p className="text-[14px] text-base text-gray-600 mt-2">{project.description}</p>
               </div>
             </div>
           ))}

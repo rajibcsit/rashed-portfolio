@@ -34,7 +34,7 @@ export default function RootLayout({ children }) {
         <div className="flex border-r shadow-inner border-gray-200 relative">
           <div className="lg:hidden">
             <div className="fixed top-0 left-0 w-full h-[60px]  bg-[#0D4D4A] flex items-center justify-between px-4 shadow-md z-40">
-              <h1 className="text-white text-xl font-bold">Haniful Islam</h1>
+              <h1 className="text-white text-xl font-bold">Rashed Sarker</h1>
               <button
                 onClick={toggleSidebar}
                 className="lg:hidden p-2 text-white rounded-md bg-[#0D4D4A]"

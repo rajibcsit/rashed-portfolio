@@ -12,6 +12,9 @@ const Interests = () => {
     {
       interest: "Playing Football,Cricket",
     },
+    {
+      interest: "Learning New Things",
+    },
   ];
   return (
     <section id="interests">
