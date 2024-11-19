@@ -2,23 +2,23 @@
 export default function Experience() {
   const experiences = [
     {
-      role: "Listing Manager (Partner)",
-      company_url: "Multiple Cryptocurrency Exchanges",
-      start_date: "2021",
+      role: "Verified Listing Manager 40+ Exchanges Partner.",
+      company_url: "Tokens/Coin Listing BD",
+      start_date: "2022",
       end_date: "Present",
       description:
-        "Facilitated token/coin listings, verified project identities, managed negotiations, and provided post-listing support between projects and exchanges.",
-      analytics: "CoinMarketCap, TradingView, Crypto APIs",
+        " I will help to list your token or coin on the top cryptocurrency exchanges so as to enable holders to trade your token and to create volume. Getting a token listed on an exchange may seem like a difficult process, but with well-thought-out actions, it can be fairly straightforward.",
+      analytics: "MEXC, LBank, Toobit, BitMart, Coinstore, CoinMarketCap, CoinGecko",
     },
     {
       role: "Digital Marketing",
-      company_url: "bd It Ltd",
-      start_date: "2020",
+      company_url: "Infinx Hospitals and health care. Cupertino, California (Remote)",
+      start_date: "2021",
       end_date: "Present",
       description:
-        "Managed Facebook Ads campaigns, optimized performance for ROI, created engaging video content, and designed targeted campaigns aligning with brand goals.",
+        "I managed Facebook ad campaigns, optimizing performance to achieve maximum ROI. Served as social media manager. I created engaging video content and designed targeted campaigns that seamlessly aligned with brand objectives and goals.",
       analytics:
-        "Facebook Ads Manager, Google Ads, Instagram Ads, Twitter Ads,AdEspresso,Adobe Premiere Pro,Filmora",
+        "Facebook Ads Manager, Social media manager, Google Ads, Instagram Ads, Twitter Ads, Capcut, Filmora",
     },
   ];
 
