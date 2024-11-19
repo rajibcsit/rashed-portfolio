@@ -1,27 +1,27 @@
 export default function Skills() {
   const skillsData = [
     {
-      title: "Digital Marketing Services",
-      description: "Expert in Digital Marketing Services: Specializing in These Solutions.",
-      skills: ["Social Media Ads", "Video Editing"],
-    },
-    {
       title: "Crypto Services",
       description: "Expert in Crypto Services: Specializing in These Solutions.",
-      skills: ["Tokens/ Coin listing Service"],
+      skills: [
+        "TokenListing",
+        "IEOExpert",
+        "CryptoConsultant",
+        "BusinessDevelopmentManager",
+        "CommunityManager",
+      ],
     },
     {
-      title: "IDE & Tools",
+      title: "Digital Marketing Services",
+      description: "Expert in Digital Marketing Services: Specializing in These Solutions.",
       skills: [
-        "Git",
-        "Github",
-        "VS code",
-        "Vercel",
-        "Netlify",
-        "Figma",
-        "Photoshop",
-        "Chrome Dev Tools",
-        "Chatgpt",
+        "SocialMediaManager",
+        "SocialMarketers",
+        "FacebookAds",
+        "TwitterAds",
+        "TikTokAds",
+        "GoogleAds",
+        "VideoEditing",
       ],
     },
   ];
