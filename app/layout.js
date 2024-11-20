@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 // import animationWvs from "@/public/images/social/animation-waves.svg";
-import mypic from "@/public/images/profile.jpg";
+import mypic from "@/public/images/me.jpg";
 import animate from "@/public/images/social/animation-waves.svg";
 import Image from "next/image";
 import "./globals.css";

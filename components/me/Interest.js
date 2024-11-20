@@ -7,9 +7,6 @@ const Interests = () => {
       interest: "Traveling",
     },
     {
-      interest: "Watch Movie",
-    },
-    {
       interest: "Playing Football,Cricket",
     },
     {

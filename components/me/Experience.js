@@ -7,8 +7,10 @@ export default function Experience() {
       start_date: "2022",
       end_date: "Present",
       description:
-        " I will help to list your token or coin on the top cryptocurrency exchanges so as to enable holders to trade your token and to create volume. Getting a token listed on an exchange may seem like a difficult process, but with well-thought-out actions, it can be fairly straightforward.",
-      analytics: "MEXC, LBank, Toobit, BitMart, Coinstore, CoinMarketCap, CoinGecko",
+        "My Expertise: I specialize in getting your token or coin listed on top cryptocurrency exchanges, ensuring seamless trading opportunities for holders and boosting token volume. While the listing process may seem complex, with strategic planning and execution, I make it a smooth and efficient experience.",
+      short_description:
+        "With my extensive experience and strong network across 40+ exchanges, I can guide you through every step, from initial submission to successful listing.",
+      analytics: "MEXC, LBank, Toobit, BitMart, Coinstore, CoinMarketCap, CoinGecko  and more.",
     },
     {
       role: "Digital Marketing",
@@ -16,9 +18,19 @@ export default function Experience() {
       start_date: "2021",
       end_date: "Present",
       description:
-        "I managed Facebook ad campaigns, optimizing performance to achieve maximum ROI. Served as social media manager. I created engaging video content and designed targeted campaigns that seamlessly aligned with brand objectives and goals.",
+        "My Expertise: I lead Facebook ad campaigns, continuously optimizing performance to maximize ROI. I create and execute targeted social media strategies, focusing on increasing engagement and driving traffic.My work involves developing data- driven marketing solutions, designing impactful digital campaigns, and improving brand awareness across multiple platforms. ",
       analytics:
-        "Facebook Ads Manager, Social media manager, Google Ads, Instagram Ads, Twitter Ads, Capcut, Filmora",
+        "Facebook Ads Campaigns, Social Media Management, Google Ads, Instagram Ads, Twitter Ads, And more",
+    },
+    {
+      role: "Video Editing",
+      company_url: "Short-Form video editing. Los Angeles CA (Remote)",
+      start_date: "2022",
+      end_date: "Present",
+      description:
+        "My skills: I create high-quality and engaging video content using modern tools like Capcut and Filmora. Through color grading, dynamic transitions, and custom animations, I design videos that strengthen brand identity and effectively connect with viewers. I create data-driven video content for social media or YouTube, which helps meet brand goals and generates viewer interest. ",
+      analytics:
+        "B-Roll Editing, Special Effects & Transitions, Color Grading, Social Media Content Editing (YouTube, Instagram, TikTok, etc.), Promotional & Corporate Videos, Video Optimization for Digital Platforms",
     },
   ];
 
@@ -53,10 +65,14 @@ export default function Experience() {
                   <span className="text-green-500">✔</span>
                   <p>{experience.description}</p>
                 </li>
+                <li className="flex">
+                  <p className="ml-7">{experience.short_description}</p>
+                </li>
               </ul>
 
               <p className="font-semibold">
-                <span className="text-gray-700">Analytics:</span> {experience.analytics}
+                <span className="text-gray-700">What I Can Do: </span>
+                {experience.analytics}
               </p>
             </div>
           ))}

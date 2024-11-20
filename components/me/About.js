@@ -30,6 +30,11 @@ const About = () => {
       icon: "/images/social/telegram.svg",
       url: "https://t.me/NextGen_Listing",
     },
+    {
+      platform: "Instagram",
+      icon: "/images/social/instagram.svg",
+      url: "https://www.instagram.com/rashedsarker304/",
+    },
   ];
 
   return (
@@ -48,10 +53,10 @@ const About = () => {
             >
               Rashed Sarker
             </h1>
-            <h3 className="py-4 text-xl font-medium">Digital Marketing Specialist</h3>
+            <h3 className="py-4 text-xl font-medium">Crypto and Digital Marketing Specialist </h3>
 
             <p className="text-gray-600 mb-2 flex flex-wrap gap-3">
-              Rangpur,Dhaka, Bangladesh.
+              Dhaka, Bangladesh.
               <Link
                 href="mailto:abc@gmailc.com"
                 className="text-gray-600 mb-2 font-bold flex items-center gap-1"
@@ -64,11 +69,13 @@ const About = () => {
         </div>
         <div className="mb-4 lg:pr-24 lg:pl-4">
           <p className="text-gray-700 text-justify text-[17px]">
-            I am Rashed, and since 2021, I have been working as a Listing Manager across multiple
-            cryptocurrency exchanges. I have extensive experience in token/coin listings as well as
-            digital marketing. For any listing, identity verification and other formalities are
-            coordinated with my senior manager. Additionally, I offer expertise in social media
-            marketing, advertising strategies, and video editing solutions.
+            Hello! I am Rashed, a Listing Manager with deep expertise in token/coin listings across
+            multiple cryptocurrency exchanges since 2021. I ensure smooth, seamless listings with
+            thorough identity verification and close coordination with senior management. Alongside
+            my crypto expertise, I specialize in digital marketing, strategic social media ad
+            campaigns, and high-quality video editing solutions. If you are seeking a trusted,
+            strategic partner to propel your project forward, let is connect and turn your vision
+            into reality!
           </p>
         </div>
 

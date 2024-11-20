@@ -21,8 +21,12 @@ export default function Skills() {
         "TwitterAds",
         "TikTokAds",
         "GoogleAds",
-        "VideoEditing",
       ],
+    },
+    {
+      title: "Video Editing",
+      description: "Expert in Video Editing: Specialized Solutions for Your Content.",
+      skills: ["VideoEditing", "ShortFormVideos", "ReelsEditing", "ContentCreation", "ShortClips"],
     },
   ];
   return (
