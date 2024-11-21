@@ -45,35 +45,35 @@ export default function Experience() {
           </div>
           {experiences?.map((experience, index) => (
             <div key={index} className="mb-12 ">
-              <div className="flex justify-between items-start">
+              <div className="flex flex-col sm:flex-row justify-between items-start">
                 <div>
-                  <h2 className="text-base sm:text-xl md:text-2xl font-bold mb-2">
+                  <h2 className="text-sm sm:text-base md:text-xl font-bold mb-2">
                     {experience.role}
                   </h2>
-                  <h3 className="text-xl font-medium text-gray-600 mb-2 ">
+                  <h3 className="text-[12px] sm:text-base md:text-lg font-bold mb-2">
                     {experience.company_url}
                   </h3>
                 </div>
-                <p className="text-right text-orange-500 font-medium">
+                <p className="text-xs sm:text-sm md:text-base text-right text-orange-500 font-medium">
                   {experience.start_date}
                   <span> - </span>
                   {experience.end_date}
                 </p>
               </div>
-              <ul className="list-none space-y-2 mb-4 w-6/12">
-                <li className="flex items-start space-x-2">
-                  <span className="text-green-500">✔</span>
-                  <p>{experience.description}</p>
-                </li>
-                <li className="flex">
-                  <p className="ml-7">{experience.short_description}</p>
-                </li>
-              </ul>
 
-              <p className="font-semibold">
-                <span className="text-gray-700">What I Can Do: </span>
-                {experience.analytics}
-              </p>
+              <div className="mb-4 w-full sm:w-10/12">
+                <p className="text-black text-justify text-sm sm:text-base md:text-lg">
+                  <span className="text-green-500">✔</span>
+                  {experience.description}
+                </p>
+                <p className="text-black text-justify text-sm sm:text-base md:text-lg">
+                  {experience.short_description}
+                </p>
+                <p className="text-black text-justify text-sm sm:text-base md:text-lg mt-2">
+                  <span className="text-black font-bold">What I Can Do: </span>
+                  {experience.analytics}
+                </p>
+              </div>
             </div>
           ))}
         </div>

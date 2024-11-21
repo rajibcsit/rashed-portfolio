@@ -39,55 +39,49 @@ const About = () => {
 
   return (
     <section id="about">
-      <div className="pt-16 pb-8 lg:pb-0 lg:pt-0 min-h-screen bg-gray-100 border-t border-gray-200 shadow-md flex flex-col justify-center px-6 sm:px-10 lg:pl-16 lg:pr-24 overflow-hidden">
-        <div className="flex flex-col md:flex-row justify-start items-start mb-4 lg:px-4">
+      <div className="pt-16 pb-6 lg:pb-0 lg:pt-0 min-h-screen bg-gray-100 border-t border-gray-200 shadow-md flex flex-col justify-center px-4 sm:px-6 lg:pl-16 lg:pr-24 overflow-hidden">
+        {/* Header Section */}
+        <div className="flex flex-col md:flex-row justify-start items-start mb-6 lg:px-4">
           <div className="text-left">
-            <h1
-              style={{
-                backgroundImage: "linear-gradient(to bottom right, #38A2D7, #561139)",
-                WebkitBackgroundClip: "text",
-                backgroundClip: "text",
-                color: "transparent",
-              }}
-              className="text-3xl sm:text-4xl md:text-5xl lg:text-[70px] font-bold text-gray-800 mb-4"
-            >
+            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-[50px] xl:text-[70px] font-bold mb-4">
               Rashed Sarker
             </h1>
-            <h3 className="py-4 text-xl font-medium">Crypto and Digital Marketing Specialist </h3>
-
-            <p className="text-gray-600 mb-2 flex flex-wrap gap-3">
+            <h3 className="py-2 sm:py-4 text-lg sm:text-xl font-bold">
+              Crypto and Digital Marketing Specialist
+            </h3>
+            <p className="font-bold mb-2 flex flex-col sm:flex-row gap-2 sm:gap-3">
               Dhaka, Bangladesh.
-              <Link
-                href="mailto:abc@gmailc.com"
-                className="text-gray-600 mb-2 font-bold flex items-center gap-1"
-              >
-                <Image src={email} alt="" />
+              <Link href="mailto:abc@gmail.com" className="font-bold flex items-center gap-1">
+                <Image src={email} alt="email icon" />
                 rashedsarker304@gmail.com
               </Link>
             </p>
           </div>
         </div>
+
+        {/* About Section */}
         <div className="mb-4 lg:pr-24 lg:pl-4">
-          <p className="text-gray-700 text-justify text-[17px]">
+          <p className="text-black text-justify text-sm sm:text-base md:text-lg">
             Hello! I am Rashed, a Listing Manager with deep expertise in token/coin listings across
             multiple cryptocurrency exchanges since 2021. I ensure smooth, seamless listings with
             thorough identity verification and close coordination with senior management. Alongside
             my crypto expertise, I specialize in digital marketing, strategic social media ad
             campaigns, and high-quality video editing solutions. If you are seeking a trusted,
-            strategic partner to propel your project forward, let is connect and turn your vision
+            strategic partner to propel your project forward, let’s connect and turn your vision
             into reality!
           </p>
         </div>
 
+        {/* Social Links Section */}
         <div className="lg:px-4">
-          <div className="mb-2 mt-8">
-            <h2 className="text-lg font-semibold mb-2">Connect with me</h2>
+          <div className="mb-2 mt-6">
+            <h2 className="text-base sm:text-lg font-semibold mb-2">Connect with me</h2>
           </div>
-          <div className="flex gap-4 flex-wrap mt-8">
+          <div className="flex gap-4 flex-wrap mt-6">
             {socialPlatforms.map((platform) => (
               <div
                 key={platform.platform}
-                className="relative group bg-gray-700 text-white rounded-full w-14 h-14 flex items-center justify-center transition duration-300 transform hover:bg-[#BD5D38] hover:scale-110"
+                className="relative group bg-gray-700 text-white rounded-full w-12 h-12 sm:w-14 sm:h-14 flex items-center justify-center transition duration-300 transform hover:bg-[#BD5D38] hover:scale-110"
               >
                 <Link
                   href={platform.url}
@@ -95,10 +89,10 @@ const About = () => {
                   rel="noopener noreferrer"
                   className="flex items-center justify-center w-full h-full"
                 >
-                  <Image src={platform.icon} alt={platform.platform} width={24} height={24} />
+                  <Image src={platform.icon} alt={platform.platform} width={20} height={20} />
                 </Link>
                 {/* Tooltip */}
-                <span className="absolute bottom-full mb-2 left-1/2 transform -translate-x-1/2 hidden group-hover:block bg-gray-800 text-white text-xs rounded py-1 px-2">
+                <span className="absolute bottom-full mb-2 left-1/2 transform -translate-x-1/2 hidden group-hover:block bg-gray-800 text-white text-xs sm:text-sm rounded py-1 px-2">
                   {platform.platform}
                 </span>
               </div>

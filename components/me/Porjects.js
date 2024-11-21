@@ -28,7 +28,7 @@ export default function Projects() {
   return (
     <section id="projects">
       <div className="pt-16 pb-8 lg:pb-0 lg:pt-0 flex flex-col border-t border-gray-200 shadow min-h-screen mx-auto px-6 sm:px-10 lg:pl-16 lg:pr-24 bg-gray-100 overflow-hidden">
-        <h1 className="lg:text-3xl text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-8 lg:mt-12">
+        <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-4 md:mb-8 lg:mt-12">
           SOME PROJECTS
         </h1>
         <p className="text-gray-600 mb-8">
